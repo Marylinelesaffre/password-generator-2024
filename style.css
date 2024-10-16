@@ -19,7 +19,14 @@ button{
     background-color: black;
     color: white;
     cursor: pointer;
+
 }
 
-
+#myPass{
+    min-width: 200px; 
+    overflow-wrap: break-word; 
+    transition: width 0.2s ease; 
+    
+    
+}
 

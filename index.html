@@ -13,8 +13,8 @@
     <body>
         <form>
             <button onclick="generatePassword(event)">Générer un mdp</button>
-            <input type="text" id="length" value="12" min="12" max="128" placeholder="longeur" >
-            <input type="text" id="myPass">
+            <input type="number" id="length" value="12" min="12" max="128" placeholder="longeur" >
+            <input type="text" id="myPass" maxlength="10">
         </form>
 
     <script src="script.js">

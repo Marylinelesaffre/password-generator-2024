@@ -1,9 +1,18 @@
 const chars = 
 "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz@#$%^&*()_+? ><:{}[]'";
-const longueur = 12
+
 function generatePassword(event){
     
 event.preventDefault();
+
+const longueur = parseInt(document.querySelector("#length").value, 10);
+
+
+if(longueur < 12 || longueur > 128) {
+    alert("Veuillez choisir une longueur entre 12 et 128 caractères.");
+    return;
+}
+
 let input = document.querySelector("#myPass");
 let motDePasse = '';
 for(let i = 0; i < longueur; i++){ 
@@ -12,5 +21,9 @@ for(let i = 0; i < longueur; i++){
 
 }
 input.value = motDePasse
-console.log(motDePasse)
+ 
+input.style.width = (input.scrollWidth + 10) + "px";
 }
+
+
+
