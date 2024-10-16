@@ -60,30 +60,30 @@ Livraison du projet dans les 24 heures à compter du début du brief.
 - Pensez à compléter le ***nom de la personne corrigée*** et le ***nom du correcteur*** dans l'entête du tableau.
 - Indiquez le **nombre d'étoiles obtenues** (l'étoile d'une catégorie est obtenue si tous ses critères de performance sont validés).
 
-| *nom de la personne corrigée*          |                               | *nom du correcteur*       |
+| *Maryline Lesaffre*          |                               | *Florent Broutin*       |
 | :---- | :----: | :---: |
 | Critères de performance                 |                               | Remarques du correcteur   |
 | ***Interface utilisateur***            |                               |                           |
-| - L'interface est claire et intuitive  | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-| - Respect des contraintes de longueur  | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| - L'interface est claire et intuitive  | <ul><li>- [x] &nbsp;</li><ul> |                           |
+| - Respect des contraintes de longueur  | <ul><li>- [x] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [x] ⭐</li><ul>     |                           |
 | ***Fonctionnalités***                  |                               |                           |
-| - Génération correcte de mots de passe | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-| - Inclusion de caractères variés       | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-| - Réactivité du bouton de génération   | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-| - Gestion des erreurs d'entrée         | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| - Génération correcte de mots de passe | <ul><li>- [x] &nbsp;</li><ul> |                           |
+| - Inclusion de caractères variés       | <ul><li>- [x] &nbsp;</li><ul> |                           |
+| - Réactivité du bouton de génération   | <ul><li>- [x] &nbsp;</li><ul> |                           |
+| - Gestion des erreurs d'entrée         | <ul><li>- [x] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [x] ⭐</li><ul>     |                           |
 | ***Code***                             |                               |                           |
-| - Organisation et lisibilité du code   | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-| - Respect des bonnes pratiques JS/HTML | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-| - Commentaires dans le code            | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| - Organisation et lisibilité du code   | <ul><li>- [x] &nbsp;</li><ul> |                           |
+| - Respect des bonnes pratiques JS/HTML | <ul><li>- [x] &nbsp;</li><ul> |                           |
+| - Commentaires dans le code            | <ul><li>- [x] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [x] ⭐</li><ul>     |                           |
 | ***Bonus***                            |                               |                           |
-| - Ajout d'options supplémentaires      | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| - Ajout d'options supplémentaires      | <ul><li>- [x] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [x] ⭐</li><ul>     |                           |
 | ***Livrables***                        |                               |                           |
-| - Projet livré dans les délais         | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| - Projet livré dans les délais         | <ul><li>- [x] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [x] ⭐</li><ul>     |                           |
 
 **Nombre d'étoiles obtenues** : ⭐⭐⭐⭐⭐
 
