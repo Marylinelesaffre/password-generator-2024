@@ -12,10 +12,24 @@
     </head>
     <body>
         <form>
-            <button onclick="generatePassword(event)">Générer un mdp</button>
+            <button type="button" onclick="generatePassword(event)">Générer un mdp</button>
             <input type="number" id="length" value="12" min="12" max="128" placeholder="longeur" >
+            
+            
             <input type="text" id="myPass" maxlength="10">
             <span class="error" id="errorMsg"></span>
+            <div class="bonus">
+                <input type="checkbox" id="includeNumbers" checked>
+                <label for="includeNumbers">Inclure des chiffres</label>
+            </div>
+            <div>
+                <input type="checkbox" id="includeLetters" checked>
+                <label for="includeLetters">Inclure des lettres</label>
+            </div>
+            <div>
+                <input type="checkbox" id="includeSymbols" checked>
+                <label for="includeSymbols">Inclure des symboles</label>
+            </div>
         </form>
 
     <script src="script.js">

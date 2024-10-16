@@ -4,10 +4,7 @@
 }
 
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+   
     
         background: linear-gradient(195deg, #05e9ae, #17a2f4);
         background-size: 400% 400%;
@@ -35,8 +32,12 @@ body{
 
 
 form{
-
+    height: 100vh;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
    
 }
 
@@ -45,14 +46,27 @@ button{
     color: white;
     cursor: pointer;
     
+}
 
+button:hover {
+    background-color: #0056b3;
 }
 
 #myPass{
     min-width: 200px; 
     overflow-wrap: break-word; 
     transition: width 0.2s ease; 
-    
-    
+    font-weight: bold;
+    background-color: #e9ecef;
+    text-align: center;
 }
 
+.bonus{
+    display: flex;
+    align-items: center;
+}
+.error {
+    font-size: 0.9rem;
+    color: red;
+    margin-top: 10px;
+}

@@ -1,5 +1,7 @@
-const chars = 
-"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz@#$%^&*()_+? ><:{}[]'"; // les caractères disponibles pour le mdp
+ // les caractères disponibles pour le mdp
+const numbers = "0123456789";
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+const symbols = "@#$%^&*()_+?><:{}[]'";
 
 function generatePassword(event){
     
@@ -20,6 +22,22 @@ if(longueur < 12 || longueur > 128) {
     errorMsg.textContent = "";
 }// Si la longueur est correcte, efface les messages d'erreu
 
+
+const includeNumbers = document.querySelector("#includeNumbers").checked;
+const includeLetters = document.querySelector("#includeLetters").checked;
+const includeSymbols = document.querySelector("#includeSymbols").checked;
+
+if (!includeNumbers && !includeLetters && !includeSymbols) {
+    alert("Veuillez sélectionner au moins un type de caractère.");
+    return;
+}
+
+// Construire la chaîne de caractères à partir des options sélectionnées
+let chars = "";
+if (includeNumbers) chars += numbers;
+if (includeLetters) chars += letters;
+if (includeSymbols) chars += symbols;
+
 let input = document.querySelector("#myPass"); //Sélectionne le champ où le mot de passe généré sera affiché
 let motDePasse = '';// Initialise une variable pour stocker le mot de passe généré
 for(let i = 0; i < longueur; i++){ 
@@ -28,6 +46,7 @@ for(let i = 0; i < longueur; i++){
   // Ajoute le caractère correspondant à l'index au mot de passe
 }
 input.value = motDePasse  // Affiche le mot de passe généré dans le champ input
+console.log("le bouton a été cliqué")
  
 input.style.width = (input.scrollWidth + 10) + "px"; // Ajuste dynamiquement la largeur du champ input en fonction de la longueur du mot de passe
 }
