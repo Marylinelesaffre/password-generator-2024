@@ -79,13 +79,13 @@ Livraison du projet dans les 24 heures à compter du début du brief.
 | - Commentaires dans le code            | <ul><li>- [x] &nbsp;</li><ul> |                           |
 |                                        | <ul><li>- [x] ⭐</li><ul>     |                           |
 | ***Bonus***                            |                               |                           |
-| - Ajout d'options supplémentaires      | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| - Ajout d'options supplémentaires      | <ul><li>- [x] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [x] ⭐</li><ul>     |                           |
 | ***Livrables***                        |                               |                           |
 | - Projet livré dans les délais         | <ul><li>- [x] &nbsp;</li><ul> |                           |
 |                                        | <ul><li>- [x] ⭐</li><ul>     |                           |
 
-**Nombre d'étoiles obtenues** : ⭐⭐⭐⭐
+**Nombre d'étoiles obtenues** : ⭐⭐⭐⭐⭐
 
 ## Ressources
 
